@@ -6,12 +6,12 @@ namespace Tyuiu.ZjatkovDV.Sprint4.Task0.V8.Lib
     {
         public int GetMultEvenArrEl(int[] array)
         {
-            int sum = 0;
+            int sum = 1;
 
             foreach (int i in array)
             {
                 if (i % 2 == 0)
-                    sum += i;
+                    sum *= i;
             }
 
             return sum;
