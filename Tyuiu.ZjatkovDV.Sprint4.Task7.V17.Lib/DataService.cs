@@ -1,0 +1,7 @@
+﻿namespace Tyuiu.ZjatkovDV.Sprint4.Task7.V17.Lib
+{
+    public class DataService
+    {
+
+    }
+}
