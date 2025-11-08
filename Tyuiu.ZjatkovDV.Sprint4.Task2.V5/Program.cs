@@ -24,8 +24,9 @@ int[] x = new int[14];
 
 for (int i = 0; i < x.Length; i++)
 {
-    Console.Write($"Введите {i+1} (из 14) элемент массива: ");
-    x[i] = Convert.ToInt32(Console.ReadLine());
+    int number = new Random().Next(3, 10);
+    Console.WriteLine($"Случайный элемент номер {i+1} (из 14): {number}");
+    x[i] = number;
 }
 
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
