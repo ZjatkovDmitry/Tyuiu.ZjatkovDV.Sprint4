@@ -21,7 +21,13 @@ Console.WriteLine(new string('*', 75));
 
 var result = new DataService();
 
-int[] x = [6, 6, 9, 6, 9, 3, 8, 2, 9, 5, 7, 4];
+int[] x = new int[12];
+
+for (int i = 0; i < x.Length; i++)
+{
+    Console.Write($"Введите {i + 1} (из 12) элемент массива: ");
+    x[i] = Convert.ToInt32(Console.ReadLine());
+}
 
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
 Console.WriteLine(result.Calculate(x).ToString());

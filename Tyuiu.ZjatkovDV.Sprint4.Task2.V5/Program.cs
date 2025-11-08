@@ -6,7 +6,7 @@ Console.OutputEncoding = Encoding.UTF8;
 Console.Title = "Спринт #4 | Выполнил: Зятьков Д. В. | ПИНб-25-1";
 Console.WriteLine(new string('*', 75));
 Console.WriteLine("* Спринт #4                                                               *");
-Console.WriteLine("* Тема: Одномерные массивы (статический ввод)                             *");
+Console.WriteLine("* Тема: Одномерные массивы. (генератор случайных чисел)                   *");
 Console.WriteLine("* Задание #2                                                              *");
 Console.WriteLine("* Вариант #5                                                              *");
 Console.WriteLine("* Выполнил: Зятьков Дмитрий Владимирович | ПИНб-25-1                      *");
@@ -26,7 +26,6 @@ for (int i = 0; i < x.Length; i++)
 {
     Console.Write($"Введите {i+1} (из 14) элемент массива: ");
     x[i] = Convert.ToInt32(Console.ReadLine());
-
 }
 
 Console.WriteLine("* РЕЗУЛЬТАТ:                                                              *");
